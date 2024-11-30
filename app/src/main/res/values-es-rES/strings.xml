@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Encryption Text</string>
+    <string name="labelKey">Clave para cifrar</string>
+    <string name="labelTitleECBMode">ECB (libro de códigos electrónico) es uno de los modos de funcionamiento de los cifrados por bloques como AES. Sin embargo, es importante tener en cuenta que el modo ECB no se recomienda para el cifrado seguro debido a su vulnerabilidad a ciertos tipos de ataques, como el reconocimiento de patrones.</string>
+    <string name="labelTextEncrypted">Texto a cifrar</string>
+    <string name="cipher">Cifrar</string>
+    <string name="labelButtonDecipher">Descifrar</string>
+    <string name="labelTextDecipher">Texto a descifrar</string>
+    <string name="textTitleCBCMode">CBC (Cipher Block Chaining) es un modo de operación más seguro en comparación con ECB para el cifrado AES. A continuación, se muestra cómo realizar el cifrado y descifrado AES en modo CBC utilizando Kotlin en Android:</string>
+    <string name="labelTitleCTRMode">El modo de contador (CTR) es otro modo de operación de cifrado en bloque que proporciona confidencialidad similar al modo CBC, pero también permite el cifrado y descifrado en paralelo, lo que lo hace adecuado para su uso en entornos donde el procesamiento en paralelo es importante. A continuación, se muestra cómo puede realizar el cifrado y descifrado AES en modo CTR usando Kotlin en Android:</string>
+    <string name="labelTitleGCMMode">El modo Galois/Counter (GCM) es un modo de cifrado autenticado que no solo proporciona confidencialidad, sino que también ofrece autenticación y comprobación de la integridad de los datos que se cifran. Esto lo convierte en una opción de cifrado más segura que los modos como ECB o CBC. A continuación, se muestra cómo se puede realizar el cifrado y descifrado AES en modo GCM con Kotlin en Android:</string>
+</resources>

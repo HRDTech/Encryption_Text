@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Encryption Text</string>
+    <string name="labelKey">Key to encrypt</string>
+    <string name="labelTitleECBMode">ECB (Electronic Codebook) is one of the modes of operation for block ciphers like AES. However, it’s important to note that ECB mode is not recommended for secure encryption due to its vulnerability to certain types of attacks, like pattern recognition.</string>
+    <string name="labelTextEncrypted">Text to be encrypted</string>
+    <string name="cipher">Cipher</string>
+    <string name="labelButtonDecipher">Decipher</string>
+    <string name="labelTextDecipher">Text to be decipher</string>
+    <string name="textTitleCBCMode">CBC (Cipher Block Chaining) is a more secure mode of operation compared to ECB for AES encryption. Here’s how you can perform AES encryption and decryption in CBC mode using Kotlin in Android:</string>
+    <string name="labelTitleCTRMode">Counter (CTR) mode is another block cipher mode of operation that provides confidentiality similar to CBC mode, but it also allows for parallel encryption and decryption, making it suitable for use in environments where parallel processing is important. Here’s how you can perform AES encryption and decryption in CTR mode using Kotlin in Android:</string>
+    <string name="labelTitleGCMMode">Galois/Counter Mode (GCM) is an authenticated encryption mode that not only provides confidentiality but also offers authentication and integrity checking for the data being encrypted. This makes it a more secure choice for encryption than modes like ECB or CBC. Here’s how you can perform AES encryption and decryption in GCM mode using Kotlin in Android:</string>
+</resources>
